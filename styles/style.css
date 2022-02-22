@@ -1,6 +1,41 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* header */
+.header{
+    background-color: #562EFF;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav .last{
+    display: flex;
+    align-items: center;
+}
+.nav .last a{
+    margin-left: 30px;
+}
+.icon{
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.icon img{
+    width: 40.42px;
+    height: 51px;
+    margin-right: 20px;
+}
+
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
